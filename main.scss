@@ -1,0 +1,41 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+
+$mainRed: #de1537;
+$darkRed: #8f0c25;
+$blue: #27a4f3;
+$grey: #dedede;
+$green: #4ca459;
+
+body {
+ font-family: 'roboto', sans-serif;
+ background: $darkRed;
+}
+
+* {
+box-sizing: border-box;
+}
+
+$mainRed: #de1537;
+$darkRed: #8f0c25;
+$blue: #27a4f3;
+$grey: #dedede;
+$green: #4ca459;
+
+
+.pokedex{
+ display: block;
+ width:100%;
+ max-width: 500px;
+ height:500px;
+ background: $mainRed;
+ margin: 50px auto;
+}
+
+.poke-img{
+ width:150px;
+ height:150px;
+ border: 5px solid $grey;
+ display: block;
+ margin: 0 auto;
+}
